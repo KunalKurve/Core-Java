@@ -1,0 +1,22 @@
+Interface:
+- They are 100% abstract.
+- Supports multiple inheritance.
+- Keyword "implements".
+- Classes always implements the interface.
+
+Immutable Class:
+- Immutability is the ability to keep the same state even after modifications. Once it is defined no one can alter it.
+- The objects of immutable class cannot be changed
+- In order to make a class immutable
+- Declare class as final.
+- Make all properties as private final.
+- Do not declare setters. Only getters.
+- Declare all args constructor.
+- If there are custom nested objects in the class as properties, implement clone.
+- If there are other types of nested objects as properties, perform a deep copy.
+
+Enums in Python : https://docs.python.org/3/library/enum.html
+
+Exception Handling:
+- There are 2 types: Exception and error.
+- Exception: 
