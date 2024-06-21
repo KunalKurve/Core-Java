@@ -1,0 +1,40 @@
+A. Inheritance:
+Ïs-a relation
+Modular in nature.
+We use it to implement polymorphism. It is important to reduce redundancy and to make a universal structure of output for the every method.
+It is used when methods have different behavior.
+Generally the 1st base class is abstract to support polymorphism.
+We use the word extend to make child class 
+Super is used to call the base class.
+Types: Single, Multilevel. (Multiple and Hybrid is supported using interface).
+
+B. Polymorphism:
+Performing the same method in different ways.
+
+B.1. Compile Time Polymorphism:
+- Method overloading.
+- It helps to raise the readability of the program.
+- Occurs within the class.
+- May or may not require inheritance.
+- Methods must have same name but different signatures(parameters).
+- Binding happens at Compile time, ie, object is determined at compile time.
+
+B.2. Run Time Polymorphism:
+- Method overriding.
+- It is used to grant specific implementation of a method which is already provided in the parent class.
+- Performed in 2 classes with inheritance relationship.
+- Requires inheritance.
+- Methods must have same name and same signature(parameters).
+- Binding happens at Run time , ie, object is determined at run time.
+
+C. Abstract Class:
+abstact classname();
+To make a method abstract, me define it using (); 
+We can't create object of a abstract class
+If there is any abstract method, the class becomes abstract.
+
+D. Types of Exception:
+class cast exception: 
+null pointer exception: 
+class not found: when class is not found in the given path.
+class definition not found: when deleted files are not found.
