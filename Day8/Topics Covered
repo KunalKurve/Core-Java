@@ -1,0 +1,16 @@
+1. Multithreading
+Creating a Thread class and implementing it in 2 ways
+- extending Thread class
+- implementing Runnable interface
+- third way - out of syllabus (using Anonymous Classes)
+
+
+micro assignment: using Lambda, as Runnable is a functional interface
+
+
+
+2. Synchronization
+run method cannot be synchronised
+methods called inside run method can be sync.
+
+when needed : when two threads works on the same method then Sync. them by this Thread 1 is completely executed first then thread 2.
