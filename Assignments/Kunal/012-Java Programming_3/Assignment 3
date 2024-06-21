@@ -1,0 +1,10 @@
+Lab Collections:
+Crete account class with id, name, balance and IFSC
+1. Create a class of accounts
+2. Sort list by different criteria.
+3. Search an account by using Binary Search.
+4. Filter account for a branch using IFSC.
+5. Filter account with Balance > certain amount
+6. Create a mapping between Account ID and IFSC
+
+grouping of two different bank's accounts
